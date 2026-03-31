@@ -1,0 +1,413 @@
+﻿00:00 +0: loading C:/Users/User/Pictures/food_loop/test/features/auth/presentation/bloc/auth_bloc_test.dart
+flutter : Error: 
+Couldn't resolve the 
+package 'bloc_test' 
+in 'package:bloc_test/
+bloc_test.dart'.
+At line:1 char:1
++ flutter test test/fe
+atures/auth/presentati
+on/bloc/auth_bloc_test
+.dart ...
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (Error: Cou   
+ ldn't...loc_test.    
+dart'.:String) []    
+, RemoteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+Error: Couldn't 
+resolve the package 
+'mocktail' in 'package
+:mocktail/mocktail.dar
+t'.
+test/features/auth/pre
+sentation/bloc/auth_bl
+oc_test.dart:1:8: 
+Error: Not found: 'pac
+kage:bloc_test/bloc_te
+st.dart'
+import 'package:bloc_t
+est/bloc_test.dart';
+       ^
+test/features/auth/pre
+sentation/bloc/auth_bl
+oc_test.dart:10:8: 
+Error: Not found: 'pac
+kage:mocktail/mocktail
+.dart'
+import 'package:mockta
+il/mocktail.dart';
+       ^
+test/features/auth/pre
+sentation/bloc/auth_bl
+oc_test.dart:12:34: 
+Error: Type 'Mock' 
+not found.
+class 
+MockAuthRepository 
+extends Mock 
+implements 
+AuthRepository {}
+                      
+           ^^^^
+test/features/auth/pre
+sentation/bloc/auth_bl
+oc_test.dart:12:7: 
+Error: The 
+non-abstract class 
+'MockAuthRepository' 
+is missing 
+implementations for 
+these members:
+ - AuthRepository.auth
+StateChanges
+ - AuthRepository.getC
+urrentUser
+ - AuthRepository.link
+PhoneToAccount
+ - AuthRepository.send
+EmailVerificationCode
+ - AuthRepository.send
+PhoneOTP
+ - AuthRepository.sign
+InWithEmail
+ - 
+AuthRepository.signOut
+ - AuthRepository.sign
+UpWithEmail
+ - AuthRepository.veri
+fyEmailOTP
+ - AuthRepository.veri
+fyPhoneOTP
+Try to either
+ - provide an 
+implementation,
+ - inherit an 
+implementation from a 
+superclass or mixin,
+ - mark the class as 
+abstract, or
+ - provide a 
+'noSuchMethod' 
+implementation.
+class 
+MockAuthRepository 
+extends Mock 
+implements 
+AuthRepository {}
+      
+^^^^^^^^^^^^^^^^^^
+lib/features/auth/doma
+in/repositories/auth_r
+epository.dart:15:17: 
+Context: 'AuthReposito
+ry.authStateChanges' 
+is defined here.
+  Stream<User?> 
+authStateChanges();
+                
+^^^^^^^^^^^^^^^^
+lib/features/auth/doma
+in/repositories/auth_r
+epository.dart:14:26: 
+Context: 'AuthReposito
+ry.getCurrentUser' is 
+defined here.
+  Either<Failure, 
+User?> 
+getCurrentUser();
+                      
+   ^^^^^^^^^^^^^^
+lib/features/auth/doma
+in/repositories/auth_r
+epository.dart:12:33: 
+Context: 'AuthReposito
+ry.linkPhoneToAccount'
+ is defined here.
+  Future<Either<Failur
+e, void>> linkPhoneToA
+ccount(PhoneAuthCreden
+tial credential);
+                      
+          
+^^^^^^^^^^^^^^^^^^
+lib/features/auth/doma
+in/repositories/auth_r
+epository.dart:8:33: 
+Context: 'AuthReposito
+ry.sendEmailVerificati
+onCode' is defined 
+here.
+  Future<Either<Failur
+e, void>> sendEmailVer
+ificationCode(String 
+email);
+                      
+          ^^^^^^^^^^^^
+^^^^^^^^^^^^^
+lib/features/auth/doma
+in/repositories/auth_r
+epository.dart:10:33: 
+Context: 'AuthReposito
+ry.sendPhoneOTP' is 
+defined here.
+  Future<Either<Failur
+e, void>> 
+sendPhoneOTP(String 
+phoneNumber);
+                      
+          ^^^^^^^^^^^^
+lib/features/auth/doma
+in/repositories/auth_r
+epository.dart:7:43: 
+Context: 'AuthReposito
+ry.signInWithEmail' 
+is defined here.
+  Future<Either<Failur
+e, UserCredential>> si
+gnInWithEmail(String 
+email, String 
+password);
+                      
+                    
+^^^^^^^^^^^^^^^
+lib/features/auth/doma
+in/repositories/auth_r
+epository.dart:13:33: 
+Context: 'AuthReposito
+ry.signOut' is 
+defined here.
+  Future<Either<Failur
+e, void>> signOut();
+                      
+          ^^^^^^^
+lib/features/auth/doma
+in/repositories/auth_r
+epository.dart:6:43: 
+Context: 'AuthReposito
+ry.signUpWithEmail' 
+is defined here.
+  Future<Either<Failur
+e, UserCredential>> si
+gnUpWithEmail(String 
+email, String 
+password, String 
+fullName);
+                      
+                    
+^^^^^^^^^^^^^^^
+lib/features/auth/doma
+in/repositories/auth_r
+epository.dart:9:33: 
+Context: 'AuthReposito
+ry.verifyEmailOTP' is 
+defined here.
+  Future<Either<Failur
+e, bool>> 
+verifyEmailOTP(String 
+code);
+                      
+          
+^^^^^^^^^^^^^^
+lib/features/auth/doma
+in/repositories/auth_r
+epository.dart:11:48: 
+Context: 'AuthReposito
+ry.verifyPhoneOTP' is 
+defined here.
+  Future<Either<Failur
+e, 
+PhoneAuthCredential>> 
+verifyPhoneOTP(String 
+verificationId, 
+String smsCode);
+                      
+                      
+   ^^^^^^^^^^^^^^
+test/features/auth/pre
+sentation/bloc/auth_bl
+oc_test.dart:48:9: 
+Error: Method not 
+found: 'when'.
+        when(() => moc
+kAuthRepository.signIn
+WithEmail('test@must.a
+c.ug', 'password123'))
+        ^^^^
+test/features/auth/pre
+sentation/bloc/auth_bl
+oc_test.dart:58:9: 
+Error: Method not 
+found: 'verify'.
+        verify(() => m
+ockAuthRepository.sign
+InWithEmail('test@must
+.ac.ug', 'password123'
+)).called(1);
+        ^^^^^^
+test/features/auth/pre
+sentation/bloc/auth_bl
+oc_test.dart:45:5: 
+Error: Method not 
+found: 'blocTest'.
+    
+blocTest<AuthBloc, 
+AuthState>(
+    ^^^^^^^^
+test/features/auth/pre
+sentation/bloc/auth_bl
+oc_test.dart:65:9: 
+Error: Method not 
+found: 'when'.
+        when(() => moc
+kAuthRepository.signIn
+WithEmail('test@must.a
+c.ug', 'wrongpass'))
+        ^^^^
+test/features/auth/pre
+sentation/bloc/auth_bl
+oc_test.dart:75:9: 
+Error: Method not 
+found: 'verify'.
+        verify(() => m
+ockAuthRepository.sign
+InWithEmail('test@must
+.ac.ug', 'wrongpass'))
+.called(1);
+        ^^^^^^
+test/features/auth/pre
+sentation/bloc/auth_bl
+oc_test.dart:62:5: 
+Error: Method not 
+found: 'blocTest'.
+    
+blocTest<AuthBloc, 
+AuthState>(
+    ^^^^^^^^
+test/features/auth/pre
+sentation/bloc/auth_bl
+oc_test.dart:82:9: 
+Error: Method not 
+found: 'when'.
+        when(() => moc
+kAuthRepository.signOu
+t()).thenAnswer((_) 
+async => const 
+Right(null));
+        ^^^^
+test/features/auth/pre
+sentation/bloc/auth_bl
+oc_test.dart:91:9: 
+Error: Method not 
+found: 'verify'.
+        verify(() => m
+ockAuthRepository.sign
+Out()).called(1);
+        ^^^^^^
+test/features/auth/pre
+sentation/bloc/auth_bl
+oc_test.dart:79:5: 
+Error: Method not 
+found: 'blocTest'.
+    
+blocTest<AuthBloc, 
+AuthState>(
+    ^^^^^^^^
+00:00 +0 -1: loading C:/Users/User/Pictures/food_loop/test/features/auth/presentation/bloc/auth_bloc_test.dart [E]
+  Failed to load "C:/Users/User/Pictures/food_loop/test/features/auth/presentation/bloc/auth_bloc_test.dart":
+  Compilation failed for testPath=C:/Users/User/Pictures/food_loop/test/features/auth/presentation/bloc/auth_bloc_test.dart: Error: Couldn't resolve the package 'bloc_test' in 'package:bloc_test/bloc_test.dart'.
+  Error: Couldn't resolve the package 'mocktail' in 'package:mocktail/mocktail.dart'.
+  test/features/auth/presentation/bloc/auth_bloc_test.dart:1:8: Error: Not found: 'package:bloc_test/bloc_test.dart'
+  import 'package:bloc_test/bloc_test.dart';
+         ^
+  test/features/auth/presentation/bloc/auth_bloc_test.dart:10:8: Error: Not found: 'package:mocktail/mocktail.dart'
+  import 'package:mocktail/mocktail.dart';
+         ^
+  test/features/auth/presentation/bloc/auth_bloc_test.dart:12:34: Error: Type 'Mock' not found.
+  class MockAuthRepository extends Mock implements AuthRepository {}
+                                   ^^^^
+  test/features/auth/presentation/bloc/auth_bloc_test.dart:12:7: Error: The non-abstract class 'MockAuthRepository' is missing implementations for these members:
+   - AuthRepository.authStateChanges
+   - AuthRepository.getCurrentUser
+   - AuthRepository.linkPhoneToAccount
+   - AuthRepository.sendEmailVerificationCode
+   - AuthRepository.sendPhoneOTP
+   - AuthRepository.signInWithEmail
+   - AuthRepository.signOut
+   - AuthRepository.signUpWithEmail
+   - AuthRepository.verifyEmailOTP
+   - AuthRepository.verifyPhoneOTP
+  Try to either
+   - provide an implementation,
+   - inherit an implementation from a superclass or mixin,
+   - mark the class as abstract, or
+   - provide a 'noSuchMethod' implementation.
+  class MockAuthRepository extends Mock implements AuthRepository {}
+        ^^^^^^^^^^^^^^^^^^
+  lib/features/auth/domain/repositories/auth_repository.dart:15:17: Context: 'AuthRepository.authStateChanges' is defined here.
+    Stream<User?> authStateChanges();
+                  ^^^^^^^^^^^^^^^^
+  lib/features/auth/domain/repositories/auth_repository.dart:14:26: Context: 'AuthRepository.getCurrentUser' is defined here.
+    Either<Failure, User?> getCurrentUser();
+                           ^^^^^^^^^^^^^^
+  lib/features/auth/domain/repositories/auth_repository.dart:12:33: Context: 'AuthRepository.linkPhoneToAccount' is defined here.
+    Future<Either<Failure, void>> linkPhoneToAccount(PhoneAuthCredential credential);
+                                  ^^^^^^^^^^^^^^^^^^
+  lib/features/auth/domain/repositories/auth_repository.dart:8:33: Context: 'AuthRepository.sendEmailVerificationCode' is defined here.
+    Future<Either<Failure, void>> sendEmailVerificationCode(String email);
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  lib/features/auth/domain/repositories/auth_repository.dart:10:33: Context: 'AuthRepository.sendPhoneOTP' is defined here.
+    Future<Either<Failure, void>> sendPhoneOTP(String phoneNumber);
+                                  ^^^^^^^^^^^^
+  lib/features/auth/domain/repositories/auth_repository.dart:7:43: Context: 'AuthRepository.signInWithEmail' is defined here.
+    Future<Either<Failure, UserCredential>> signInWithEmail(String email, String password);
+                                            ^^^^^^^^^^^^^^^
+  lib/features/auth/domain/repositories/auth_repository.dart:13:33: Context: 'AuthRepository.signOut' is defined here.
+    Future<Either<Failure, void>> signOut();
+                                  ^^^^^^^
+  lib/features/auth/domain/repositories/auth_repository.dart:6:43: Context: 'AuthRepository.signUpWithEmail' is defined here.
+    Future<Either<Failure, UserCredential>> signUpWithEmail(String email, String password, String fullName);
+                                            ^^^^^^^^^^^^^^^
+  lib/features/auth/domain/repositories/auth_repository.dart:9:33: Context: 'AuthRepository.verifyEmailOTP' is defined here.
+    Future<Either<Failure, bool>> verifyEmailOTP(String code);
+                                  ^^^^^^^^^^^^^^
+  lib/features/auth/domain/repositories/auth_repository.dart:11:48: Context: 'AuthRepository.verifyPhoneOTP' is defined here.
+    Future<Either<Failure, PhoneAuthCredential>> verifyPhoneOTP(String verificationId, String smsCode);
+                                                 ^^^^^^^^^^^^^^
+  test/features/auth/presentation/bloc/auth_bloc_test.dart:48:9: Error: Method not found: 'when'.
+          when(() => mockAuthRepository.signInWithEmail('test@must.ac.ug', 'password123'))
+          ^^^^
+  test/features/auth/presentation/bloc/auth_bloc_test.dart:58:9: Error: Method not found: 'verify'.
+          verify(() => mockAuthRepository.signInWithEmail('test@must.ac.ug', 'password123')).called(1);
+          ^^^^^^
+  test/features/auth/presentation/bloc/auth_bloc_test.dart:45:5: Error: Method not found: 'blocTest'.
+      blocTest<AuthBloc, AuthState>(
+      ^^^^^^^^
+  test/features/auth/presentation/bloc/auth_bloc_test.dart:65:9: Error: Method not found: 'when'.
+          when(() => mockAuthRepository.signInWithEmail('test@must.ac.ug', 'wrongpass'))
+          ^^^^
+  test/features/auth/presentation/bloc/auth_bloc_test.dart:75:9: Error: Method not found: 'verify'.
+          verify(() => mockAuthRepository.signInWithEmail('test@must.ac.ug', 'wrongpass')).called(1);
+          ^^^^^^
+  test/features/auth/presentation/bloc/auth_bloc_test.dart:62:5: Error: Method not found: 'blocTest'.
+      blocTest<AuthBloc, AuthState>(
+      ^^^^^^^^
+  test/features/auth/presentation/bloc/auth_bloc_test.dart:82:9: Error: Method not found: 'when'.
+          when(() => mockAuthRepository.signOut()).thenAnswer((_) async => const Right(null));
+          ^^^^
+  test/features/auth/presentation/bloc/auth_bloc_test.dart:91:9: Error: Method not found: 'verify'.
+          verify(() => mockAuthRepository.signOut()).called(1);
+          ^^^^^^
+  test/features/auth/presentation/bloc/auth_bloc_test.dart:79:5: Error: Method not found: 'blocTest'.
+      blocTest<AuthBloc, AuthState>(
+      ^^^^^^^^
+  .
+00:00 +0 -1: Some tests failed.

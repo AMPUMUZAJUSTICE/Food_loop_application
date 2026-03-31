@@ -1,0 +1,7 @@
+Analyzing listing_detail_screen.dart, profile_screen.dart...
+
+   info - lib\features\feed\presentation\screens\listing_detail_screen.dart:235:50 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - lib\features\feed\presentation\screens\listing_detail_screen.dart:284:106 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - lib\features\feed\presentation\screens\listing_detail_screen.dart:516:78 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+
+3 issues found.

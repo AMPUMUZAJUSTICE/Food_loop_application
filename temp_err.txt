@@ -1,0 +1,28 @@
+﻿Resolving dependencies...
+flutter : Because 
+food_loop depends on 
+bloc_test ^3.2.0 
+which doesn't match 
+any versions, version 
+solving failed.
+At line:1 char:19
++ ... r pub get ; 
+flutter test test/feat
+ures/auth/presentation
+/bloc/auth_bl ...
++                 ~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (Because fo   
+ od_lo...solving f    
+ailed.:String) []    
+, RemoteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+Failed to update 
+packages.

@@ -1,0 +1,32 @@
+﻿Analyzing settings...                                           
+
+warning - The value of the field '_paymentUpdates' isn't used - lib\features\settings\presentation\screens\settings_screen.dart:28:8 - unused_field
+  error - The named parameter 'options' isn't defined - lib\features\settings\presentation\screens\settings_screen.dart:79:11 - undefined_named_parameter
+  error - The name 'AuthenticationOptions' isn't a class - lib\features\settings\presentation\screens\settings_screen.dart:79:26 - creation_with_non_type
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\features\settings\presentation\screens\settings_screen.dart:347:13 - deprecated_member_use
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\features\settings\presentation\screens\settings_screen.dart:358:13 - deprecated_member_use
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\features\settings\presentation\screens\settings_screen.dart:365:13 - deprecated_member_use
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\features\settings\presentation\screens\settings_screen.dart:375:13 - deprecated_member_use
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\features\settings\presentation\screens\settings_screen.dart:385:13 - deprecated_member_use
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\features\settings\presentation\screens\settings_screen.dart:401:13 - deprecated_member_use
+
+flutter : 9 issues 
+found. (ran in 3.0s)
+At line:1 char:1
++ flutter analyze lib/
+features/settings/ 
+2>&1 | Out-File 
+-Encoding utf8 ...
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (9 issues f   
+ ound. (ran in 3.0    
+s):String) [], Re    
+moteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 

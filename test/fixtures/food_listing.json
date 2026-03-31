@@ -1,0 +1,32 @@
+{
+  "id": "123",
+  "sellerId": "seller456",
+  "sellerName": "John Doe",
+  "sellerRating": 4.5,
+  "sellerImageUrl": "https://example.com/john.jpg",
+  "title": "Fresh Apples",
+  "category": "groceries",
+  "imageUrls": ["img1.jpg", "img2.jpg"],
+  "price": 5000.0,
+  "isFree": false,
+  "description": "Crisp red apples",
+  "allergenTags": ["none"],
+  "pickupLocation": {
+    "address": "Must Campus",
+    "latitude": 0.0,
+    "longitude": 0.0
+  },
+  "pickupWindowStart": {
+    "_seconds": 1704067200,
+    "_nanoseconds": 0
+  },
+  "pickupWindowEnd": {
+    "_seconds": 1704153600,
+    "_nanoseconds": 0
+  },
+  "status": "active",
+  "createdAt": {
+    "_seconds": 1704060000,
+    "_nanoseconds": 0
+  }
+}
